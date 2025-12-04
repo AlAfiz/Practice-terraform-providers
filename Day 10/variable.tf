@@ -83,6 +83,14 @@
       monitoring     = true,
       instance_count = 1
     }
+  }*/
+  variable "environment" {
+    type    = string
+    default = "dev"
+  }
+  variable "instance_count" {
+    description = "Number of EC2 instances to create"
+    type        = number
   }
   variable "tags" {
     type = map(string)
