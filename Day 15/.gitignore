@@ -1,0 +1,22 @@
+.terraform.lock.hcl
+terraform.tfvars
+.terraform/
+*.tfvars.json
+*.log
+crash.log
+*.terraform.*backup
+*.tfstate
+*.tfstate.backup
+# SSH keys
+*.pem
+*.ppk
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo

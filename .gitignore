@@ -1,0 +1,32 @@
+# Terraform files
+**/.terraform/
+**/.terraform.lock.hcl
+**/terraform.tfstate
+**/terraform.tfstate.backup
+**/*.tfstate
+**/*.tfstate.backup
+**/.terraform.tfstate.lock.info
+
+# IDE
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# Sensitive files
+**/*.pem
+**/*.key
+**/terraform.tfvars
+**/*.tfvars
+!example.tfvars
+
+# Text files in root
+*.txt
